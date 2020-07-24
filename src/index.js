@@ -6,5 +6,5 @@ gsap.to(".logo", {
   backgroundColor: "#560563",
   borderRadius: "20%",
   border: "1px solid white",
-  y: 250,
+  ease: "back",
 });
