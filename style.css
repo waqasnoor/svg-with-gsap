@@ -15,8 +15,19 @@
   align-items: center;
 }
 
-.item .element {
+.item .green {
   background-color: green;
+  width: inherit;
+  height: inherit;
+}
+.item .blue {
+  background-color: blue;
+  width: inherit;
+  height: inherit;
+}
+
+.item .orange {
+  background-color: orange;
   width: inherit;
   height: inherit;
 }
