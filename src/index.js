@@ -9,7 +9,7 @@ tl.add(
 );
 tl.add(
   gsap.to(".blue", {
-    duration: 0.5,
+    duration: 0.6,
     scale: 0.5,
     y: 200,
     ease:
