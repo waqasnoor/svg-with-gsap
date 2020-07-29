@@ -1,5 +1,6 @@
 import gsap from "gsap";
 const tl = gsap.timeline({ repeat: 30, repeatDelay: 1 });
+tl.timeScale(1.5);
 tl.to(".green", {
   scale: 0.5,
   y: 200,
