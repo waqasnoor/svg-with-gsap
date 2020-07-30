@@ -1,6 +1,6 @@
 import gsap from "gsap";
 const tl = gsap.timeline({ repeat: 30, repeatDelay: 1 });
-tl.timeScale(1.5);
+tl.timeScale(0.5);
 tl.to(".green", {
   scale: 0.5,
   y: 200,
@@ -19,8 +19,7 @@ tl.to(".green", {
       duration: 0.5,
       scale: 0.5,
       y: 200,
-      ease:
-        "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
+      ease: "bounce",
     },
     "orangeAndBlue"
   );
