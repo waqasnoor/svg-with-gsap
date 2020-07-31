@@ -6,11 +6,12 @@ tl.to(".green", {
   y: 200,
   stagger: 0.5,
   ease: "elastic",
+  rotation: 60,
 })
   .addLabel("orangeAndBlue")
   .to(
     ".orange",
-    { scale: 0.5, y: 200, stagger: 0.5, ease: "bounce" },
+    { scale: 0.5, y: 200, stagger: 0.5, ease: "bounce", rotation: 120 },
     "orangeAndBlue"
   )
   .to(
@@ -20,6 +21,7 @@ tl.to(".green", {
       scale: 0.5,
       y: 200,
       ease: "bounce",
+      rotation: 180,
     },
     "orangeAndBlue"
   );
