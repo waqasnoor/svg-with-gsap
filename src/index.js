@@ -1,4 +1,7 @@
 import gsap from "gsap";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+
+gsap.registerPlugin(MotionPathPlugin);
 const tl = gsap.timeline({ repeat: 30, repeatDelay: 1 });
 tl.timeScale(0.5);
 tl.to(".green", {
