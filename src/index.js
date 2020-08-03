@@ -3,7 +3,14 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(MotionPathPlugin);
 
-gsap.to("circle", {
+gsap.to("#box", {
   duration: 5,
-  motionPath: "m119.5,260.05c219,-4 27,-220 282,-7c255,213 374,-63 296,-66",
+  motionPath: {
+    curviness: 2,
+    path: [
+      { x: 100, y: 200 },
+      { x: 300, y: 200 },
+      { x: 300, y: 400 },
+    ],
+  },
 });
