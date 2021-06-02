@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/waqasnoor/svg-with-gsap#readme",
   "dependencies": {
-    "gsap": "^3.4.2",
+    "gsap": "^3.6.0",
     "parcel": "^1.12.4"
   }
 }
